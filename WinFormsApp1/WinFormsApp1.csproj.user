@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AdminMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Advisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="assignAdvisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AssignProjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="editGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GroupEvaluation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Groups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ManageEvaluations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ManageProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ManageStudentscs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pdfReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProjectAdvisors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StudentMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StudentsGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StudInG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="viewStud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
