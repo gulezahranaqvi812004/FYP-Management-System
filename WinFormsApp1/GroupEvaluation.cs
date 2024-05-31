@@ -18,7 +18,7 @@ namespace WinFormsApp1
             InitializeComponent();
             loaddata();
         }
-        public void loaddata() 
+        public void loaddata()
         {
             var con = Configuration.getInstance().getConnection();
             if (con.State == ConnectionState.Closed)
@@ -220,5 +220,9 @@ namespace WinFormsApp1
             evaluationIdcomboBox.DataSource = dataList;
         }
 
+        private void evaluationIdcomboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

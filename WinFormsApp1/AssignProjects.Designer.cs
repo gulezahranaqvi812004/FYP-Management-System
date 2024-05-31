@@ -239,6 +239,7 @@
             MinimumSize = new Size(1109, 733);
             Name = "AssignProjects";
             Text = "AssignProjects";
+            Load += AssignProjects_Load;
             ((System.ComponentModel.ISupportInitialize)assignProjectDGV).EndInit();
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();

@@ -202,8 +202,8 @@ WHERE
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            StudentMenu vs=new StudentMenu();
-            vs.Show();
+         /*   StudentMenu vs=new StudentMenu();
+            vs.Show();*/
         }
     }
 }

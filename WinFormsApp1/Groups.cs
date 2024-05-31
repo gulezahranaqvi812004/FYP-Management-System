@@ -17,6 +17,7 @@ namespace WinFormsApp1
         public Groups()
         {
             InitializeComponent();
+            DisplayGroups();
         }
         private bool insertGroup(String groupCreatedOn)
         {
@@ -54,10 +55,56 @@ namespace WinFormsApp1
 
         private void addGroupBtn_Click(object sender, EventArgs e)
         {
-            insertGroup(groupDatePicker.Text);
-            MessageBox.Show("Successfully saved");
-        }
+            /* insertGroup(groupDatePicker.Text);
+             MessageBox.Show("Successfully saved");*/
+            try
+            {
+                int id = 0;
+                var con = Configuration.getInstance().getConnection();
+                SqlCommand cmd = new SqlCommand("INSERT INTO [Group](Created_On) VALUES(@date); SELECT Id FROM [Group] ORDER BY Id Desc", con);
+                cmd.Parameters.AddWithValue("@date", DateTime.Today);
+                SqlDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    id = int.Parse(reader["Id"].ToString());
+                }
+                reader.Close();
+                MessageBox.Show("Group G-" + id + " Created Successfully");
+                editGroup EditGroup = new editGroup(id);
+                /* Menu menuForm = (Menu)this.ParentForm;
+                 menuForm.OpenChildForm(EditGroup, sender);*/
+                this.Hide();
+                EditGroup.Show();
 
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", System.Windows.Forms.MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            DisplayGroups();
+
+        }
+        public void DisplayGroups()
+        {
+            try
+            {
+                var con = Configuration.getInstance().getConnection();
+                SqlCommand cmd = new SqlCommand("SELECT CONCAT('G-',G.Id) AS GroupId,P.Id AS ProjectId,P.Title,COUNT(GS.StudentId) AS GStudent,(SELECT FORMAT(G.Created_On, 'dd-MM-yyyy')) AS Created_On FROM [Group] AS G LEFT JOIN GroupProject AS GP ON G.Id=GP.GroupId LEFT JOIN GroupStudent AS GS ON GS.GroupId=G.Id LEFT JOIN Project AS P ON GP.ProjectId=P.Id WHERE GS.Status=3 GROUP BY G.Id,P.Id,P.Title,G.Created_On", con);
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                groupDataGridView.DataSource = dt.DefaultView;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
         private void groupDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             // Get the selected row

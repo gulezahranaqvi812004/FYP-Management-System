@@ -29,15 +29,13 @@
         private void InitializeComponent()
         {
             nameTxtBox = new TextBox();
-            totalmarksTextBox = new TextBox();
-            weightadeTxtBox = new TextBox();
+            txtTotalMarks = new TextBox();
+            txtTotalWeightage = new TextBox();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             dgvEvaluation = new DataGridView();
             addEvalBtn = new Button();
-            showEvalBtn = new Button();
-            updateEvalBtn = new Button();
             clearBtn = new Button();
             exitbtn = new Button();
             tableLayoutPanel1 = new TableLayoutPanel();
@@ -61,23 +59,23 @@
             nameTxtBox.Size = new Size(317, 37);
             nameTxtBox.TabIndex = 0;
             // 
-            // totalmarksTextBox
+            // txtTotalMarks
             // 
-            totalmarksTextBox.Dock = DockStyle.Fill;
-            totalmarksTextBox.Font = new Font("Segoe UI", 11F);
-            totalmarksTextBox.Location = new Point(163, 97);
-            totalmarksTextBox.Name = "totalmarksTextBox";
-            totalmarksTextBox.Size = new Size(317, 37);
-            totalmarksTextBox.TabIndex = 1;
+            txtTotalMarks.Dock = DockStyle.Fill;
+            txtTotalMarks.Font = new Font("Segoe UI", 11F);
+            txtTotalMarks.Location = new Point(163, 97);
+            txtTotalMarks.Name = "txtTotalMarks";
+            txtTotalMarks.Size = new Size(317, 37);
+            txtTotalMarks.TabIndex = 1;
             // 
-            // weightadeTxtBox
+            // txtTotalWeightage
             // 
-            weightadeTxtBox.Dock = DockStyle.Fill;
-            weightadeTxtBox.Font = new Font("Segoe UI", 11F);
-            weightadeTxtBox.Location = new Point(163, 191);
-            weightadeTxtBox.Name = "weightadeTxtBox";
-            weightadeTxtBox.Size = new Size(317, 37);
-            weightadeTxtBox.TabIndex = 2;
+            txtTotalWeightage.Dock = DockStyle.Fill;
+            txtTotalWeightage.Font = new Font("Segoe UI", 11F);
+            txtTotalWeightage.Location = new Point(163, 191);
+            txtTotalWeightage.Name = "txtTotalWeightage";
+            txtTotalWeightage.Size = new Size(317, 37);
+            txtTotalWeightage.TabIndex = 2;
             // 
             // label1
             // 
@@ -132,46 +130,20 @@
             addEvalBtn.Font = new Font("Segoe UI", 11F);
             addEvalBtn.Location = new Point(3, 3);
             addEvalBtn.Name = "addEvalBtn";
-            addEvalBtn.Size = new Size(195, 63);
+            addEvalBtn.Size = new Size(329, 63);
             addEvalBtn.TabIndex = 7;
             addEvalBtn.Text = "Add";
             addEvalBtn.UseVisualStyleBackColor = false;
             addEvalBtn.Click += addEvalBtn_Click;
-            // 
-            // showEvalBtn
-            // 
-            showEvalBtn.BackColor = Color.FromArgb(155, 164, 181);
-            showEvalBtn.Dock = DockStyle.Fill;
-            showEvalBtn.Font = new Font("Segoe UI", 11F);
-            showEvalBtn.Location = new Point(204, 3);
-            showEvalBtn.Name = "showEvalBtn";
-            showEvalBtn.Size = new Size(195, 63);
-            showEvalBtn.TabIndex = 8;
-            showEvalBtn.Text = "Show";
-            showEvalBtn.UseVisualStyleBackColor = false;
-            showEvalBtn.Click += showEvalBtn_Click;
-            // 
-            // updateEvalBtn
-            // 
-            updateEvalBtn.BackColor = Color.FromArgb(155, 164, 181);
-            updateEvalBtn.Dock = DockStyle.Fill;
-            updateEvalBtn.Font = new Font("Segoe UI", 11F);
-            updateEvalBtn.Location = new Point(405, 3);
-            updateEvalBtn.Name = "updateEvalBtn";
-            updateEvalBtn.Size = new Size(195, 63);
-            updateEvalBtn.TabIndex = 9;
-            updateEvalBtn.Text = "Update";
-            updateEvalBtn.UseVisualStyleBackColor = false;
-            updateEvalBtn.Click += updateEvalBtn_Click;
             // 
             // clearBtn
             // 
             clearBtn.BackColor = Color.FromArgb(155, 164, 181);
             clearBtn.Dock = DockStyle.Fill;
             clearBtn.Font = new Font("Segoe UI", 11F);
-            clearBtn.Location = new Point(606, 3);
+            clearBtn.Location = new Point(338, 3);
             clearBtn.Name = "clearBtn";
-            clearBtn.Size = new Size(195, 63);
+            clearBtn.Size = new Size(329, 63);
             clearBtn.TabIndex = 10;
             clearBtn.Text = "Clear";
             clearBtn.UseVisualStyleBackColor = false;
@@ -182,9 +154,9 @@
             exitbtn.BackColor = Color.FromArgb(155, 164, 181);
             exitbtn.Dock = DockStyle.Fill;
             exitbtn.Font = new Font("Segoe UI", 11F);
-            exitbtn.Location = new Point(807, 3);
+            exitbtn.Location = new Point(673, 3);
             exitbtn.Name = "exitbtn";
-            exitbtn.Size = new Size(197, 63);
+            exitbtn.Size = new Size(331, 63);
             exitbtn.TabIndex = 11;
             exitbtn.Text = "Exit";
             exitbtn.UseVisualStyleBackColor = false;
@@ -193,17 +165,14 @@
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            tableLayoutPanel1.ColumnCount = 5;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 19.9992027F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 19.9991989F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 19.9991989F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 19.9992027F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20.0031986F));
+            tableLayoutPanel1.ColumnCount = 3;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3311119F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3311119F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3377762F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
             tableLayoutPanel1.Controls.Add(addEvalBtn, 0, 0);
-            tableLayoutPanel1.Controls.Add(showEvalBtn, 1, 0);
-            tableLayoutPanel1.Controls.Add(clearBtn, 3, 0);
-            tableLayoutPanel1.Controls.Add(exitbtn, 4, 0);
-            tableLayoutPanel1.Controls.Add(updateEvalBtn, 2, 0);
+            tableLayoutPanel1.Controls.Add(clearBtn, 1, 0);
+            tableLayoutPanel1.Controls.Add(exitbtn, 2, 0);
             tableLayoutPanel1.Location = new Point(36, 435);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
@@ -234,8 +203,8 @@
             tableLayoutPanel3.Controls.Add(label2, 0, 1);
             tableLayoutPanel3.Controls.Add(label3, 0, 2);
             tableLayoutPanel3.Controls.Add(nameTxtBox, 1, 0);
-            tableLayoutPanel3.Controls.Add(weightadeTxtBox, 1, 2);
-            tableLayoutPanel3.Controls.Add(totalmarksTextBox, 1, 1);
+            tableLayoutPanel3.Controls.Add(txtTotalWeightage, 1, 2);
+            tableLayoutPanel3.Controls.Add(txtTotalMarks, 1, 1);
             tableLayoutPanel3.Location = new Point(36, 138);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 3;
@@ -296,15 +265,13 @@
         #endregion
 
         private TextBox nameTxtBox;
-        private TextBox totalmarksTextBox;
-        private TextBox weightadeTxtBox;
+        private TextBox txtTotalMarks;
+        private TextBox txtTotalWeightage;
         private Label label1;
         private Label label2;
         private Label label3;
         private DataGridView dgvEvaluation;
         private Button addEvalBtn;
-        private Button showEvalBtn;
-        private Button updateEvalBtn;
         private Button clearBtn;
         private Button exitbtn;
         private TableLayoutPanel tableLayoutPanel1;

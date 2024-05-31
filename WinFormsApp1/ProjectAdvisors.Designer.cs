@@ -29,20 +29,17 @@
         private void InitializeComponent()
         {
             projectComboBox = new ComboBox();
-            mainAdvComboBox = new ComboBox();
-            coAdvComboBox = new ComboBox();
+            mainAdvisorComboBox = new ComboBox();
+            coAdvisorComboBox = new ComboBox();
             assigmentDatePicker = new DateTimePicker();
             addBtn = new Button();
-            showBtn = new Button();
-            updateBtn = new Button();
-            clearBtn = new Button();
             button1 = new Button();
             advisorGroupDGV = new DataGridView();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
-            industryAdvComboBox = new ComboBox();
+            industryAdvisorComboBox = new ComboBox();
             label5 = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
             tableLayoutPanel2 = new TableLayoutPanel();
@@ -68,27 +65,27 @@
             projectComboBox.TabIndex = 1;
             projectComboBox.SelectedIndexChanged += advisorIdComboBox_SelectedIndexChanged;
             // 
-            // mainAdvComboBox
+            // mainAdvisorComboBox
             // 
-            mainAdvComboBox.Dock = DockStyle.Fill;
-            mainAdvComboBox.Font = new Font("Segoe UI", 11F);
-            mainAdvComboBox.FormattingEnabled = true;
-            mainAdvComboBox.Location = new Point(221, 67);
-            mainAdvComboBox.Margin = new Padding(4);
-            mainAdvComboBox.Name = "mainAdvComboBox";
-            mainAdvComboBox.Size = new Size(354, 38);
-            mainAdvComboBox.TabIndex = 2;
+            mainAdvisorComboBox.Dock = DockStyle.Fill;
+            mainAdvisorComboBox.Font = new Font("Segoe UI", 11F);
+            mainAdvisorComboBox.FormattingEnabled = true;
+            mainAdvisorComboBox.Location = new Point(221, 67);
+            mainAdvisorComboBox.Margin = new Padding(4);
+            mainAdvisorComboBox.Name = "mainAdvisorComboBox";
+            mainAdvisorComboBox.Size = new Size(354, 38);
+            mainAdvisorComboBox.TabIndex = 2;
             // 
-            // coAdvComboBox
+            // coAdvisorComboBox
             // 
-            coAdvComboBox.Dock = DockStyle.Fill;
-            coAdvComboBox.Font = new Font("Segoe UI", 11F);
-            coAdvComboBox.FormattingEnabled = true;
-            coAdvComboBox.Location = new Point(221, 130);
-            coAdvComboBox.Margin = new Padding(4);
-            coAdvComboBox.Name = "coAdvComboBox";
-            coAdvComboBox.Size = new Size(354, 38);
-            coAdvComboBox.TabIndex = 3;
+            coAdvisorComboBox.Dock = DockStyle.Fill;
+            coAdvisorComboBox.Font = new Font("Segoe UI", 11F);
+            coAdvisorComboBox.FormattingEnabled = true;
+            coAdvisorComboBox.Location = new Point(221, 130);
+            coAdvisorComboBox.Margin = new Padding(4);
+            coAdvisorComboBox.Name = "coAdvisorComboBox";
+            coAdvisorComboBox.Size = new Size(354, 38);
+            coAdvisorComboBox.TabIndex = 3;
             // 
             // assigmentDatePicker
             // 
@@ -107,59 +104,20 @@
             addBtn.Location = new Point(4, 4);
             addBtn.Margin = new Padding(4);
             addBtn.Name = "addBtn";
-            addBtn.Size = new Size(215, 49);
+            addBtn.Size = new Size(942, 49);
             addBtn.TabIndex = 5;
             addBtn.Text = "Add";
             addBtn.UseVisualStyleBackColor = false;
             addBtn.Click += addBtn_Click;
             // 
-            // showBtn
-            // 
-            showBtn.BackColor = Color.FromArgb(155, 164, 181);
-            showBtn.Dock = DockStyle.Fill;
-            showBtn.Location = new Point(450, 4);
-            showBtn.Margin = new Padding(4);
-            showBtn.Name = "showBtn";
-            showBtn.Size = new Size(215, 49);
-            showBtn.TabIndex = 6;
-            showBtn.Text = "Show";
-            showBtn.UseVisualStyleBackColor = false;
-            showBtn.Click += showBtn_Click;
-            // 
-            // updateBtn
-            // 
-            updateBtn.BackColor = Color.FromArgb(155, 164, 181);
-            updateBtn.Dock = DockStyle.Fill;
-            updateBtn.Location = new Point(227, 4);
-            updateBtn.Margin = new Padding(4);
-            updateBtn.Name = "updateBtn";
-            updateBtn.Size = new Size(215, 49);
-            updateBtn.TabIndex = 7;
-            updateBtn.Text = "Update";
-            updateBtn.UseVisualStyleBackColor = false;
-            updateBtn.Click += updateBtn_Click;
-            // 
-            // clearBtn
-            // 
-            clearBtn.BackColor = Color.FromArgb(155, 164, 181);
-            clearBtn.Dock = DockStyle.Fill;
-            clearBtn.Location = new Point(673, 4);
-            clearBtn.Margin = new Padding(4);
-            clearBtn.Name = "clearBtn";
-            clearBtn.Size = new Size(215, 49);
-            clearBtn.TabIndex = 8;
-            clearBtn.Text = "Clear";
-            clearBtn.UseVisualStyleBackColor = false;
-            clearBtn.Click += clearBtn_Click;
-            // 
             // button1
             // 
             button1.BackColor = Color.FromArgb(155, 164, 181);
             button1.Dock = DockStyle.Fill;
-            button1.Location = new Point(896, 4);
+            button1.Location = new Point(954, 4);
             button1.Margin = new Padding(4);
             button1.Name = "button1";
-            button1.Size = new Size(218, 49);
+            button1.Size = new Size(160, 49);
             button1.TabIndex = 9;
             button1.Text = "Exit";
             button1.UseVisualStyleBackColor = false;
@@ -229,16 +187,16 @@
             label4.Text = "Assignment Date";
             label4.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // industryAdvComboBox
+            // industryAdvisorComboBox
             // 
-            industryAdvComboBox.Dock = DockStyle.Fill;
-            industryAdvComboBox.Font = new Font("Segoe UI", 11F);
-            industryAdvComboBox.FormattingEnabled = true;
-            industryAdvComboBox.Location = new Point(221, 193);
-            industryAdvComboBox.Margin = new Padding(4);
-            industryAdvComboBox.Name = "industryAdvComboBox";
-            industryAdvComboBox.Size = new Size(354, 38);
-            industryAdvComboBox.TabIndex = 15;
+            industryAdvisorComboBox.Dock = DockStyle.Fill;
+            industryAdvisorComboBox.Font = new Font("Segoe UI", 11F);
+            industryAdvisorComboBox.FormattingEnabled = true;
+            industryAdvisorComboBox.Location = new Point(221, 193);
+            industryAdvisorComboBox.Margin = new Padding(4);
+            industryAdvisorComboBox.Name = "industryAdvisorComboBox";
+            industryAdvisorComboBox.Size = new Size(354, 38);
+            industryAdvisorComboBox.TabIndex = 15;
             // 
             // label5
             // 
@@ -264,11 +222,11 @@
             tableLayoutPanel1.Controls.Add(label5, 0, 3);
             tableLayoutPanel1.Controls.Add(projectComboBox, 1, 0);
             tableLayoutPanel1.Controls.Add(label2, 0, 1);
-            tableLayoutPanel1.Controls.Add(mainAdvComboBox, 1, 1);
+            tableLayoutPanel1.Controls.Add(mainAdvisorComboBox, 1, 1);
             tableLayoutPanel1.Controls.Add(label3, 0, 2);
             tableLayoutPanel1.Controls.Add(assigmentDatePicker, 1, 4);
-            tableLayoutPanel1.Controls.Add(coAdvComboBox, 1, 2);
-            tableLayoutPanel1.Controls.Add(industryAdvComboBox, 1, 3);
+            tableLayoutPanel1.Controls.Add(coAdvisorComboBox, 1, 2);
+            tableLayoutPanel1.Controls.Add(industryAdvisorComboBox, 1, 3);
             tableLayoutPanel1.Location = new Point(29, 131);
             tableLayoutPanel1.Margin = new Padding(4);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -297,22 +255,15 @@
             // tableLayoutPanel3
             // 
             tableLayoutPanel3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            tableLayoutPanel3.ColumnCount = 5;
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
+            tableLayoutPanel3.ColumnCount = 2;
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 85F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15F));
             tableLayoutPanel3.Controls.Add(addBtn, 0, 0);
-            tableLayoutPanel3.Controls.Add(updateBtn, 1, 0);
-            tableLayoutPanel3.Controls.Add(showBtn, 2, 0);
-            tableLayoutPanel3.Controls.Add(clearBtn, 3, 0);
-            tableLayoutPanel3.Controls.Add(button1, 4, 0);
+            tableLayoutPanel3.Controls.Add(button1, 1, 0);
             tableLayoutPanel3.Location = new Point(25, 479);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 1;
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel3.Size = new Size(1118, 57);
             tableLayoutPanel3.TabIndex = 19;
             // 
@@ -370,20 +321,17 @@
         #endregion
 
         private ComboBox projectComboBox;
-        private ComboBox mainAdvComboBox;
-        private ComboBox coAdvComboBox;
+        private ComboBox mainAdvisorComboBox;
+        private ComboBox coAdvisorComboBox;
         private DateTimePicker assigmentDatePicker;
         private Button addBtn;
-        private Button showBtn;
-        private Button updateBtn;
-        private Button clearBtn;
         private Button button1;
         private DataGridView advisorGroupDGV;
         private Label label1;
         private Label label2;
         private Label label3;
         private Label label4;
-        private ComboBox industryAdvComboBox;
+        private ComboBox industryAdvisorComboBox;
         private Label label5;
         private TableLayoutPanel tableLayoutPanel1;
         private TableLayoutPanel tableLayoutPanel2;

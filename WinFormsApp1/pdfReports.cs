@@ -86,7 +86,7 @@ namespace WinFormsApp1
             title.Alignment = Element.ALIGN_CENTER;
             document.Add(title);
 
-            string imageURL = "C:\\Users\\PMLS\\Desktop\\2022-CS-63\\2022-CS-63\\2022-CS-63\\MidProjectUI\\MidProjectUI\\Resources\\uet_logo.png";
+            string imageURL = "D:\\Semester4\\cs-logo.png";
             iTextSharp.text.Image jpg = iTextSharp.text.Image.GetInstance(imageURL);
             jpg.ScaleToFit(140f, 120f);
             jpg.SpacingBefore = 10f;
@@ -110,7 +110,7 @@ namespace WinFormsApp1
             document.Add(submittedParagraph);
 
 
-            Paragraph nameParagraph = new Paragraph("Faisal Ilyas        2022-CS-63");
+            Paragraph nameParagraph = new Paragraph("Gul-e-Zahra        2022-CS-75");
             nameParagraph.SpacingBefore = 10f;
             nameParagraph.SpacingAfter = 80f;
             nameParagraph.Font.Size = 14;

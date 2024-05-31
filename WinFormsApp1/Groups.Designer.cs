@@ -32,7 +32,6 @@
             groupDatePicker = new DateTimePicker();
             addGroupBtn = new Button();
             showGroupBtn = new Button();
-            updateGroupBtn = new Button();
             tableLayoutPanel1 = new TableLayoutPanel();
             tableLayoutPanel2 = new TableLayoutPanel();
             button1 = new Button();
@@ -71,7 +70,7 @@
             addGroupBtn.Font = new Font("Segoe UI", 11F);
             addGroupBtn.Location = new Point(3, 3);
             addGroupBtn.Name = "addGroupBtn";
-            addGroupBtn.Size = new Size(252, 88);
+            addGroupBtn.Size = new Size(339, 88);
             addGroupBtn.TabIndex = 2;
             addGroupBtn.Text = "Add";
             addGroupBtn.UseVisualStyleBackColor = false;
@@ -82,26 +81,13 @@
             showGroupBtn.BackColor = Color.FromArgb(155, 164, 181);
             showGroupBtn.Dock = DockStyle.Fill;
             showGroupBtn.Font = new Font("Segoe UI", 11F);
-            showGroupBtn.Location = new Point(261, 3);
+            showGroupBtn.Location = new Point(348, 3);
             showGroupBtn.Name = "showGroupBtn";
-            showGroupBtn.Size = new Size(252, 88);
+            showGroupBtn.Size = new Size(339, 88);
             showGroupBtn.TabIndex = 3;
             showGroupBtn.Text = "Display";
             showGroupBtn.UseVisualStyleBackColor = false;
             showGroupBtn.Click += showGroupBtn_Click;
-            // 
-            // updateGroupBtn
-            // 
-            updateGroupBtn.BackColor = Color.FromArgb(155, 164, 181);
-            updateGroupBtn.Dock = DockStyle.Fill;
-            updateGroupBtn.Font = new Font("Segoe UI", 11F);
-            updateGroupBtn.Location = new Point(519, 3);
-            updateGroupBtn.Name = "updateGroupBtn";
-            updateGroupBtn.Size = new Size(252, 88);
-            updateGroupBtn.TabIndex = 4;
-            updateGroupBtn.Text = "Update";
-            updateGroupBtn.UseVisualStyleBackColor = false;
-            updateGroupBtn.Click += updateGroupBtn_Click;
             // 
             // tableLayoutPanel1
             // 
@@ -119,20 +105,18 @@
             // tableLayoutPanel2
             // 
             tableLayoutPanel2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            tableLayoutPanel2.ColumnCount = 4;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
-            tableLayoutPanel2.Controls.Add(button1, 3, 0);
+            tableLayoutPanel2.ColumnCount = 3;
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel2.Controls.Add(button1, 2, 0);
             tableLayoutPanel2.Controls.Add(addGroupBtn, 0, 0);
-            tableLayoutPanel2.Controls.Add(updateGroupBtn, 2, 0);
             tableLayoutPanel2.Controls.Add(showGroupBtn, 1, 0);
             tableLayoutPanel2.Location = new Point(33, 456);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 1;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel2.Size = new Size(1035, 94);
             tableLayoutPanel2.TabIndex = 6;
             // 
@@ -141,9 +125,9 @@
             button1.BackColor = Color.FromArgb(155, 164, 181);
             button1.Dock = DockStyle.Fill;
             button1.Font = new Font("Segoe UI", 11F);
-            button1.Location = new Point(777, 3);
+            button1.Location = new Point(693, 3);
             button1.Name = "button1";
-            button1.Size = new Size(255, 88);
+            button1.Size = new Size(339, 88);
             button1.TabIndex = 7;
             button1.Text = "Exit";
             button1.UseVisualStyleBackColor = false;
@@ -202,7 +186,6 @@
         private DateTimePicker groupDatePicker;
         private Button addGroupBtn;
         private Button showGroupBtn;
-        private Button updateGroupBtn;
         private TableLayoutPanel tableLayoutPanel1;
         private TableLayoutPanel tableLayoutPanel2;
         private Button button1;

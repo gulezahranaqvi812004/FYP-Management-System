@@ -20,9 +20,10 @@ namespace WinFormsApp1
 
             InitializeComponent();
             ProjectToComboBox();
-            AdvisorToComboBox(mainAdvComboBox, "", "");
-            AdvisorToComboBox(coAdvComboBox, "", "");
-            AdvisorToComboBox(industryAdvComboBox, "", "");
+            AdvisorToComboBox(mainAdvisorComboBox, "", "");
+            AdvisorToComboBox(coAdvisorComboBox, "", "");
+            AdvisorToComboBox(industryAdvisorComboBox, "", "");
+            loadData();
 
         }
         private void ProjectToComboBox()
@@ -176,16 +177,16 @@ namespace WinFormsApp1
                 MessageBox.Show("Select a Project First");
                 return;
             }
-            else if (mainAdvComboBox.Text == string.Empty || coAdvComboBox.Text == string.Empty || industryAdvComboBox.Text == string.Empty)
+            else if (mainAdvisorComboBox.Text == string.Empty || coAdvisorComboBox.Text == string.Empty || industryAdvisorComboBox.Text == string.Empty)
             {
                 MessageBox.Show("Select an Advisor to be assigned");
                 return;
             }
             GetProjectId(projectComboBox.Text);
             RemoveAdvisorToProject();
-            int mainId = AdvisorIdFromDataBase(mainAdvComboBox.Text);
-            int coId = AdvisorIdFromDataBase(coAdvComboBox.Text);
-            int inId = AdvisorIdFromDataBase(industryAdvComboBox.Text);
+            int mainId = AdvisorIdFromDataBase(mainAdvisorComboBox.Text);
+            int coId = AdvisorIdFromDataBase(coAdvisorComboBox.Text);
+            int inId = AdvisorIdFromDataBase(industryAdvisorComboBox.Text);
             // Check if the selected advisors are the same
             if (mainId == coId && coId == inId)
             {
@@ -196,26 +197,52 @@ namespace WinFormsApp1
             AssignAdvisor(GetAdvisorRole("Co-Advisror"), coId);
             AssignAdvisor(GetAdvisorRole("Industry Advisor"), inId);
             MessageBox.Show("Advisors Assigned Successfully");
-            /* bool value = true;
-             int project = GetProject(mainAdvComboBox.Text);
-             int adRole = GetAdvisorRole(coAdvComboBox.Text);
-
-             if (CheckProjectALreadyExistForAdvisor(project))
+            loadData();
+            /* if (projectComboBox.Text == string.Empty)
              {
-                 MessageBox.Show("This Project already assigned to an advisor.");
+                 MessageBox.Show("Select a Project First");
                  return;
              }
-             if (availableProject(project))
+             else if (mainAdvComboBox.Text == string.Empty || coAdvComboBox.Text == string.Empty || industryAdvComboBox.Text == string.Empty)
              {
-                 MessageBox.Show("This Project already assigned to an advisor.");
+                 MessageBox.Show("Select an Advisor to be assigned");
                  return;
              }
-             if (value)
+             GetProjectId(projectComboBox.Text);
+             RemoveAdvisorToProject();
+             int mainId = AdvisorIdFromDataBase(mainAdvComboBox.Text);
+             int coId = AdvisorIdFromDataBase(coAdvComboBox.Text);
+             int inId = AdvisorIdFromDataBase(industryAdvComboBox.Text);
+             // Check if the selected advisors are the same
+             if (mainId == coId && coId == inId)
              {
+                 MessageBox.Show("The selected advisors cannot be the same.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                 return;
+             }
+             AssignAdvisor(GetAdvisorRole("Main Advisor"), mainId);
+             AssignAdvisor(GetAdvisorRole("Co-Advisror"), coId);
+             AssignAdvisor(GetAdvisorRole("Industry Advisor"), inId);
+             MessageBox.Show("Advisors Assigned Successfully");
+             *//* bool value = true;
+              int project = GetProject(mainAdvComboBox.Text);
+              int adRole = GetAdvisorRole(coAdvComboBox.Text);
 
-                 assignAdvisor(int.Parse(projectComboBox.Text), project, adRole, assigmentDatePicker.Text);
-                 MessageBox.Show("Successfully saved");
-             }*/
+              if (CheckProjectALreadyExistForAdvisor(project))
+              {
+                  MessageBox.Show("This Project already assigned to an advisor.");
+                  return;
+              }
+              if (availableProject(project))
+              {
+                  MessageBox.Show("This Project already assigned to an advisor.");
+                  return;
+              }
+              if (value)
+              {
+
+                  assignAdvisor(int.Parse(projectComboBox.Text), project, adRole, assigmentDatePicker.Text);
+                  MessageBox.Show("Successfully saved");
+              }*/
         }
        
 
@@ -247,7 +274,7 @@ namespace WinFormsApp1
         }
         public bool availableProject(int projectName)
         {
-            int m = GetProject(mainAdvComboBox.Text);
+            int m = GetProject(mainAdvisorComboBox.Text);
             bool status = false;
             var con = Configuration.getInstance().getConnection();
             if (con.State == ConnectionState.Closed)
@@ -328,7 +355,15 @@ namespace WinFormsApp1
                 return count > 0;
             }
         }
-
+        private void loadData()
+        {
+            var con = Configuration.getInstance().getConnection();
+            SqlCommand cmd = new SqlCommand("SELECT  MAX(P.Title) Title, MAX(CASE WHEN PA.AdvisorRole = 11 THEN CONCAT(Person.FirstName,' ',Person.LastName) END) AS MainAdvisor, MAX(CASE WHEN PA.AdvisorRole = 12 THEN CONCAT(Person.FirstName,' ',Person.LastName) END) AS CoAdvisor, MAX(CASE WHEN PA.AdvisorRole = 14 THEN CONCAT(Person.FirstName,' ',Person.LastName) END) AS IndustryAdvisor FROM  ProjectAdvisor PA INNER JOIN Advisor A ON PA.AdvisorId = A.Id JOIN Project P ON P.Id=PA.ProjectId JOIN Person ON Person.Id=A.Id GROUP BY PA.ProjectId", con);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            advisorGroupDGV.DataSource = dt.DefaultView;
+        }
         private void showBtn_Click(object sender, EventArgs e)
         {
             /* var con = Configuration.getInstance().getConnection();
@@ -352,8 +387,8 @@ namespace WinFormsApp1
         private void updateBtn_Click(object sender, EventArgs e)
         {
 
-            int project = GetProject(mainAdvComboBox.Text);
-            int adRole = GetAdvisorRole(coAdvComboBox.Text);
+            int project = GetProject(mainAdvisorComboBox.Text);
+            int adRole = GetAdvisorRole(coAdvisorComboBox.Text);
 
             var con = Configuration.getInstance().getConnection();
             if (con.State == ConnectionState.Closed)
@@ -381,8 +416,8 @@ namespace WinFormsApp1
             // Populate the text boxes with the data
             assigmentDatePicker.Text = row.Cells["AssignmentDate"].Value.ToString();
             projectComboBox.Text = row.Cells["AdvisorId"].Value.ToString();
-            mainAdvComboBox.Text = row.Cells["ProjectId"].Value.ToString();
-            coAdvComboBox.Text = row.Cells["AdvisorRole"].Value.ToString();
+            mainAdvisorComboBox.Text = row.Cells["ProjectId"].Value.ToString();
+            coAdvisorComboBox.Text = row.Cells["AdvisorRole"].Value.ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)

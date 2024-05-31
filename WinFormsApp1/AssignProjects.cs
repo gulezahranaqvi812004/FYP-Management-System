@@ -18,7 +18,7 @@ namespace WinFormsApp1
             InitializeComponent();
             loaddata();
         }
-        public void loaddata() 
+        public void loaddata()
         {
             var con = Configuration.getInstance().getConnection();
             if (con.State == ConnectionState.Closed)
@@ -33,12 +33,12 @@ namespace WinFormsApp1
         }
         private void addStudentButton_Click(object sender, EventArgs e)
         {
-
             int project = GetProject(projectIdcomboBox.Text);
 
 
             assignProject(int.Parse(groupIdComboBox.Text), project, assigmentDatePicker.Text);
             MessageBox.Show("Successfully saved");
+            loaddata();
         }
         public int GetProject(string Value)
         {
@@ -158,6 +158,62 @@ namespace WinFormsApp1
             this.Close();
             AdminMenu f1 = new AdminMenu();
             f1.Show();
+        }
+
+        private void AssignProjects_Load(object sender, EventArgs e)
+        {
+            GroupBoxValue();
+
+            ProjectBoxValue();
+        }
+        public void ProjectBoxValue()
+        {
+            var con = Configuration.getInstance().getConnection();
+            if (con.State == ConnectionState.Closed)
+            {
+                con.Open();
+            }
+            SqlCommand cmd = new SqlCommand("Select Id,Title from Project", con);
+            SqlDataReader reader = cmd.ExecuteReader();
+            // Create list to store retrieved data
+            List<object> dataList = new List<object>();
+            // Loop through reader and add retrieved data to list
+            while (reader.Read())
+            {
+                // Retrieve data from reader
+                object data = reader["Title"];
+                // Add data to list
+                dataList.Add(data);
+            }
+            // Close reader and connection
+            reader.Close();
+            con.Close();
+            projectIdcomboBox.DataSource = dataList;
+        }
+
+        public void GroupBoxValue()
+        {
+            var con = Configuration.getInstance().getConnection();
+            if (con.State == ConnectionState.Closed)
+            {
+                con.Open();
+            }
+            SqlCommand cmd = new SqlCommand("Select Id from [Group]", con);
+            SqlDataReader reader = cmd.ExecuteReader();
+            // Create list to store retrieved data
+            List<object> dataList = new List<object>();
+            // Loop through reader and add retrieved data to list
+            while (reader.Read())
+            {
+                // Retrieve data from reader
+                object data = reader["Id"];
+                // Add data to list
+                dataList.Add(data);
+            }
+            // Close reader and connection
+            reader.Close();
+            con.Close();
+            groupIdComboBox.DataSource = dataList;
         }
     }
 }

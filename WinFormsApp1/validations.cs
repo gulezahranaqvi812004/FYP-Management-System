@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -23,6 +24,22 @@ namespace WinFormsApp1
         public static bool CheckRegNo(string RegNo)
         {
             return Regex.IsMatch(RegNo, RegNoRegex);
+        }
+        public static bool ValidationInDatabase(string query)
+        {
+            var con = Configuration.getInstance().getConnection();
+            SqlCommand cmd = new SqlCommand(query, con);
+            SqlDataReader reader = cmd.ExecuteReader();
+            if (reader.HasRows)
+            {
+                reader.Close();
+                return true;
+            }
+            else
+            {
+                reader.Close();
+                return false;
+            }
         }
 
         public static bool CheckEmpty(string EMPTY)

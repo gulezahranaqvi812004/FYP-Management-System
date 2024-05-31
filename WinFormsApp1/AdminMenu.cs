@@ -94,7 +94,9 @@ namespace WinFormsApp1
 
         private void button11_Click(object sender, EventArgs e)
         {
-            this.Close();
+            loginForm f1=new loginForm();
+            this.Hide();
+            f1.Show();
         }
     }
 }

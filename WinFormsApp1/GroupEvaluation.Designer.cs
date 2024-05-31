@@ -60,6 +60,7 @@
             evaluationIdcomboBox.Name = "evaluationIdcomboBox";
             evaluationIdcomboBox.Size = new Size(885, 33);
             evaluationIdcomboBox.TabIndex = 0;
+            evaluationIdcomboBox.SelectedIndexChanged += evaluationIdcomboBox_SelectedIndexChanged;
             // 
             // groupIdComboBox
             // 

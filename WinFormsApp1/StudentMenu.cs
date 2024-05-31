@@ -46,9 +46,9 @@ namespace WinFormsApp1
                         control.Enabled = true;
                     }
                 }
-                MessageBox.Show("Welcome, student!");
+               /* MessageBox.Show("Welcome, student!");*/
                 viewStud viewStud = new viewStud(registrationNumber, loadAssignedProjects: false);
-                this.Hide();
+               /* this.Hide();*/
                 viewStud.Show();
             }
             else
@@ -94,9 +94,9 @@ namespace WinFormsApp1
                         control.Enabled = true;
                     }
                 }
-                MessageBox.Show("Welcome, student!");
+               /* MessageBox.Show("Welcome, student!");*/
                 viewStud viewStud = new viewStud(registrationNumber, loadAssignedProjects: true);
-                this.Hide();
+              /*  this.Hide();*/
                 viewStud.Show();
             }
             else
@@ -126,9 +126,9 @@ namespace WinFormsApp1
                         control.Enabled = true;
                     }
                 }
-                MessageBox.Show("Welcome, student!");
+               /* MessageBox.Show("Welcome, student!");*/
                 viewStud viewStud = new viewStud(registrationNumber, loadEvaluations: true);
-                this.Hide();
+              /*  this.Hide();*/
                 viewStud.Show();
             }
             else
@@ -158,9 +158,9 @@ namespace WinFormsApp1
                         control.Enabled = true;
                     }
                 }
-                MessageBox.Show("Welcome, student!");
+               /* MessageBox.Show("Welcome, student!");*/
                 viewStud viewStud = new viewStud(registrationNumber, LoadAdvisor: true);
-                this.Hide();
+             /*   this.Hide();*/
                 viewStud.Show();
             }
             else
@@ -172,7 +172,7 @@ namespace WinFormsApp1
         private void button5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            AdminMenu form1 = new AdminMenu();
+            loginForm form1 = new loginForm();
             form1.Show();
         }
     }

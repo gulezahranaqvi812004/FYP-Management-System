@@ -1,82 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Semester4\\Database\\WinFormsApp1\\",
+  "WorkspaceRootPath": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\WinFormsApp1\\winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\WinFormsApp1\\winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|d:\\semester4\\database\\winformsapp1\\winformsapp1\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|d:\\semester4\\database\\winformsapp1\\winformsapp1\\managestudentscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\managestudentscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|d:\\semester4\\database\\winformsapp1\\winformsapp1\\managestudentscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\managestudentscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|d:\\semester4\\database\\winformsapp1\\winformsapp1\\assignprojects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\assignprojects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|d:\\semester4\\database\\winformsapp1\\winformsapp1\\groupevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\groupevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|d:\\semester4\\database\\winformsapp1\\winformsapp1\\manageproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\manageproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\WinFormsApp1\\winformsapp1\\groupevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\groupevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|d:\\semester4\\database\\winformsapp1\\winformsapp1\\assignprojects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\assignprojects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\WinFormsApp1\\winformsapp1\\adminmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\adminmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|d:\\semester4\\database\\winformsapp1\\winformsapp1\\manageproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\manageproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\WinFormsApp1\\winformsapp1\\pdfreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|d:\\semester4\\database\\2022-cs-75dbmidproject\\winformsapp1\\pdfreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\pdfreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\WinFormsApp1\\winformsapp1\\studentmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\studentmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\WinFormsApp1\\winformsapp1\\viewstud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\viewstud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\WinFormsApp1\\winformsapp1\\pdfreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|d:\\semester4\\database\\2022-cs-75dbmidproject\\winformsapp1\\pdfreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\pdfreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\WinFormsApp1\\winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|d:\\semester4\\database\\2022-cs-75dbmidproject\\winformsapp1\\studing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\studing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\WinFormsApp1\\winformsapp1\\studing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\2022-CS-75DBMidProject\\winformsapp1\\studing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\studing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\WinFormsApp1\\winformsapp1\\advisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\advisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\2022-CS-75DBMidProject\\winformsapp1\\groupevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\groupevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\2022-CS-75DBMidProject\\winformsapp1\\groupevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\groupevaluation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\2022-CS-75DBMidProject\\winformsapp1\\managestudentscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\managestudentscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\2022-CS-75DBMidProject\\winformsapp1\\managestudentscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\managestudentscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\2022-CS-75DBMidProject\\winformsapp1\\adminmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\adminmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\2022-CS-75DBMidProject\\winformsapp1\\viewstud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\viewstud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\2022-CS-75DBMidProject\\winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\2022-CS-75DBMidProject\\winformsapp1\\editgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\editgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\2022-CS-75DBMidProject\\winformsapp1\\editgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\editgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\2022-CS-75DBMidProject\\winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\2022-CS-75DBMidProject\\winformsapp1\\projectadvisors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\projectadvisors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\2022-CS-75DBMidProject\\winformsapp1\\studentmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\studentmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\2022-CS-75DBMidProject\\winformsapp1\\studentmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\studentmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\2022-CS-75DBMidProject\\winformsapp1\\assignprojects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\assignprojects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\2022-CS-75DBMidProject\\winformsapp1\\assignprojects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\assignprojects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|D:\\Semester4\\Database\\2022-CS-75DBMidProject\\winformsapp1\\projectadvisors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1750E7A-B0E4-4970-B8CC-969AB6D9252F}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\projectadvisors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,240 +90,240 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Report.cs [Design]",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\Report.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Report.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\Report.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Report.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "pdfReports.cs",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\pdfReports.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\pdfReports.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\pdfReports.cs",
+              "RelativeToolTip": "WinFormsApp1\\pdfReports.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAYwJUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T09:02:58.064Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ManageStudentscs.cs",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\ManageStudentscs.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\ManageStudentscs.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\ManageStudentscs.cs",
-              "RelativeToolTip": "WinFormsApp1\\ManageStudentscs.cs",
-              "ViewState": "AQIAALAAAAAAAAAAAAAiwLIAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T08:50:55.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ManageStudentscs.cs [Design]",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\ManageStudentscs.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\ManageStudentscs.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\ManageStudentscs.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\ManageStudentscs.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T06:50:36.745Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GroupEvaluation.cs",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\GroupEvaluation.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\GroupEvaluation.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\GroupEvaluation.cs",
-              "RelativeToolTip": "WinFormsApp1\\GroupEvaluation.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAMwDoAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T06:43:32.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ManageProject.cs",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\ManageProject.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\ManageProject.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\ManageProject.cs",
-              "RelativeToolTip": "WinFormsApp1\\ManageProject.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAowBMAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T06:41:26.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AssignProjects.cs",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\AssignProjects.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\AssignProjects.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\AssignProjects.cs",
-              "RelativeToolTip": "WinFormsApp1\\AssignProjects.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAIAwwD8AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T06:37:54.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AssignProjects.cs [Design]",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\AssignProjects.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\AssignProjects.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\AssignProjects.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\AssignProjects.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T05:38:33.386Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ManageProject.cs [Design]",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\ManageProject.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\ManageProject.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\ManageProject.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\ManageProject.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T13:06:28.33Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "viewStud.cs [Design]",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\viewStud.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\viewStud.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\viewStud.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\viewStud.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T11:12:24.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "login.cs",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\login.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\login.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\login.cs",
-              "RelativeToolTip": "WinFormsApp1\\login.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAlwC4AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T11:06:31.712Z",
+              "WhenOpened": "2024-05-07T09:20:15.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "login.cs [Design]",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\login.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\login.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\login.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T11:06:28.71Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "StudentMenu.cs [Design]",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\StudentMenu.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\StudentMenu.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\StudentMenu.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\StudentMenu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T11:05:42.379Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "pdfReports.cs",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\pdfReports.cs",
+              "Title": "pdfReports.cs [Design]",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\pdfReports.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\pdfReports.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\pdfReports.cs",
-              "RelativeToolTip": "WinFormsApp1\\pdfReports.cs",
-              "ViewState": "AQIAAK0CAAAAAAAAAAAhwLcCAAALAAAA",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\pdfReports.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\pdfReports.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T10:31:56.104Z",
+              "WhenOpened": "2024-05-07T09:19:59.302Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudInG.cs",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\StudInG.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\StudInG.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\StudInG.cs",
+              "RelativeToolTip": "WinFormsApp1\\StudInG.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAQwCEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T19:38:34.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "pdfReports.cs [Design]",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\pdfReports.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\pdfReports.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\pdfReports.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\pdfReports.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "StudInG.cs [Design]",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\StudInG.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\StudInG.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\StudInG.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\StudInG.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T10:31:51.542Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-02T19:38:32.75Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "StudInG.cs [Design]",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\StudInG.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\StudInG.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\StudInG.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\StudInG.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "GroupEvaluation.cs [Design]",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\GroupEvaluation.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\GroupEvaluation.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\GroupEvaluation.cs [Design]*",
+              "RelativeToolTip": "WinFormsApp1\\GroupEvaluation.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T09:57:28.671Z"
+              "WhenOpened": "2024-05-02T19:37:48.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManageStudentscs.cs",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\ManageStudentscs.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\ManageStudentscs.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\ManageStudentscs.cs",
+              "RelativeToolTip": "WinFormsApp1\\ManageStudentscs.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAUwMkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T10:20:07.335Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "GroupEvaluation.cs [Design]",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\GroupEvaluation.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\GroupEvaluation.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\GroupEvaluation.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\GroupEvaluation.cs [Design]",
+              "Title": "AdminMenu.cs [Design]",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\AdminMenu.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\AdminMenu.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\AdminMenu.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\AdminMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T09:55:24.08Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-01T10:19:27.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ManageStudentscs.cs [Design]",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\ManageStudentscs.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\ManageStudentscs.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\ManageStudentscs.cs [Design]*",
+              "RelativeToolTip": "WinFormsApp1\\ManageStudentscs.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T09:07:13.724Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "AdminMenu.cs [Design]",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\AdminMenu.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\AdminMenu.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\AdminMenu.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\AdminMenu.cs [Design]",
+              "Title": "login.cs [Design]",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\login.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\login.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\login.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T09:40:52.722Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-01T07:40:38.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GroupEvaluation.cs",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\GroupEvaluation.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\GroupEvaluation.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\GroupEvaluation.cs*",
+              "RelativeToolTip": "WinFormsApp1\\GroupEvaluation.cs*",
+              "ViewState": "AQIAANgAAAAAAAAAAAAAwOUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T11:10:57.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\Program.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\Program.cs",
+              "RelativeToolTip": "WinFormsApp1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T07:26:15.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "editGroup.cs",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\editGroup.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\editGroup.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\editGroup.cs",
+              "RelativeToolTip": "WinFormsApp1\\editGroup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T15:03:03.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "editGroup.cs [Design]",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\editGroup.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\editGroup.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\editGroup.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\editGroup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T14:59:42.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "viewStud.cs",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\viewStud.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\viewStud.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\viewStud.cs",
+              "RelativeToolTip": "WinFormsApp1\\viewStud.cs",
+              "ViewState": "AQIAAJgAAAAAAAAAAAA6wM0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T14:51:56.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AssignProjects.cs",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\AssignProjects.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\AssignProjects.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\AssignProjects.cs",
+              "RelativeToolTip": "WinFormsApp1\\AssignProjects.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAADwvzAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T10:08:04.832Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "Advisor.cs",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\Advisor.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Advisor.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\Advisor.cs",
-              "RelativeToolTip": "WinFormsApp1\\Advisor.cs",
-              "ViewState": "AQIAAGMBAAAAAAAAAAAswG4BAAAMAAAA",
+              "Title": "AssignProjects.cs [Design]",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\AssignProjects.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\AssignProjects.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\AssignProjects.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\AssignProjects.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T07:55:21.366Z"
+              "WhenOpened": "2024-03-19T10:07:39.939Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\Program.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
-              "ToolTip": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\Program.cs",
-              "RelativeToolTip": "WinFormsApp1\\Program.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAowA0AAAAlAAAA",
+              "DocumentIndex": 15,
+              "Title": "StudentMenu.cs",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\StudentMenu.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\StudentMenu.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\StudentMenu.cs",
+              "RelativeToolTip": "WinFormsApp1\\StudentMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKAAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T16:05:59.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T09:49:37.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StudentMenu.cs [Design]",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\StudentMenu.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\StudentMenu.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\StudentMenu.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\StudentMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T09:49:28.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProjectAdvisors.cs [Design]",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\ProjectAdvisors.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\ProjectAdvisors.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\ProjectAdvisors.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\ProjectAdvisors.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T09:28:53.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProjectAdvisors.cs",
+              "DocumentMoniker": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\ProjectAdvisors.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\ProjectAdvisors.cs",
+              "ToolTip": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\ProjectAdvisors.cs",
+              "RelativeToolTip": "WinFormsApp1\\ProjectAdvisors.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAqwBkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T09:25:56.169Z"
             }
           ]
         }

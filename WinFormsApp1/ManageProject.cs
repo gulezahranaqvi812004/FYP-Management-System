@@ -61,7 +61,9 @@ namespace WinFormsApp1
             {
 
                 insertProject(descritionTxtBox.Text, titleTextBox.Text);
+                loaddata();
                 MessageBox.Show("Successfully saved");
+
             }
         }
 

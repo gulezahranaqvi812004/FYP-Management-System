@@ -650,11 +650,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\WinFormsApp1.csproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectPath": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\WinFormsApp1.csproj",
       "packagesPath": "C:\\Users\\Gul-e zahra\\.nuget\\packages\\",
-      "outputPath": "D:\\Semester4\\Database\\WinFormsApp1\\WinFormsApp1\\obj\\",
+      "outputPath": "D:\\Semester4\\Database\\2022-CS-75DBMidProject\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gul-e zahra\\AppData\\Roaming\\NuGet\\NuGet.Config",
